@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+.CreateAccountForm {
+	transition-duration: 500ms;
+	transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.CreateAccountImage {
+	transition-duration: 500ms;
+	transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.Trans {
+	transition-duration: 500ms;
+	transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+#Cursor {
+	position: fixed;
+	pointer-events: none;
+	transition: opacity 0.15s;
+}

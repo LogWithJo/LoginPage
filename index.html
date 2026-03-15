@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task and Habit</title>
+    <!-- webfont -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=BBH+Hegarty&family=Cairo:wght@200..1000&family=Momo+Signature&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Stack+Sans+Text:wght@200..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- tailwind -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- css file -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- webfont -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link
+      rel="shortcut icon"
+      href="../../Photos/apple-touch-icon.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body class="selection:bg-violet-600 selection:text-white lg:cursor-none ">
+    <!-- Header -->
+    <div id="Header" class="p-2 border-b border-b-gray-200 shadow-md capitalize font-bold flex justify-between items-center">
+      <div class="flex gap-2 cursor-pointer text-xl">
+        <div><i class="fa-solid fa-book text-violet-800"></i></div>
+        <div>library manager</div>
+      </div>
+      <div class="md:hidden *:py-1 *:first:px-2 *:last:sm:px-3 *:bg-violet-600 *:text-white *:rounded-lg text-sm">
+        <div class="" id="LoginBtnHeader">Login</div>
+        <div class="hidden" id="CreateAccountBtnHeader">Create Account</div>
+      </div>
+    </div>
+    <!-- Page Create Account-->
+    <div class="flex w-full CreateAccountPage" id="CreateAccountPage">
+      <div class="md:w-1/2 w-full flex flex-col h-full justify-between py-10 CreateAccountForm" id="CreateAccountForm">
+        <!-- Welcome -->
+        <div class="p-6 *:first:text-3xl *:first:font-bold capitalize *:last:text-gray-600 flex flex-col gap-2">
+          <div id="Welcome">welcome</div>
+          <div>access your collection and picking up where you left off</div>
+        </div>
+        <!-- Form -->
+        <form action="">
+          <div class="px-6 flex flex-col gap-3 md:gap-6">
+            <!-- Email Input -->
+            <div class="flex flex-col gap-1">
+              <div class="capitalize font-semibold">email address</div>
+              <div class="flex border border-gray-200 p-2 rounded-lg gap-2 items-center text-gray-500 bg-gray-100">
+                <div><i class="fa-regular fa-envelope"></i></div>
+                <div class="w-full"><input type="email" name="EmailInput" id="EmailInput" class="w-full outline-none caret-violet-600 text-black" placeholder="name@example.com"></div>
+              </div>
+              <div class="text-red-600 hidden capitalize" id="EmailError">enter a valide email</div>
+            </div>
+            <!-- Password Input -->
+            <div class="gap-1 flex flex-col">
+              <div class="flex gap-2 w-full justify-between capitalize font-semibold">
+                <div>password</div>
+                <div class="capitalize text-red-600 hidden text-sm md:text-md" id="PasswordForgotStatment">No, I will not give it to you. Remember it by yourself.</div>
+                <div class="text-violet-600 cursor-pointer hidden invisible md:visible" id="ForgotPassword">forgot password?</div>
+              </div>
+              <div>
+                <div class="flex border border-gray-200 p-2 rounded-lg gap-2 items-center text-gray-500 bg-gray-100">
+                  <div><i class="fa-solid fa-lock"></i></div>
+                  <div class="w-full"><input type="text" maxlength="15" name="PasswordInput" id="PasswordInput" class="w-full outline-none text-black caret-violet-600" placeholder="~~~~~~~~~~"></div>
+                  <div class="cursor-pointer" id="Eye"><i class="fa-regular fa-eye"></i></div>
+                </div>
+                <div class=" hidden text-sm px-4 flex flex-col gap-0.5 p-2 *:flex *:gap-0.5"  id="PasswordList">
+                    <div class="text-red-600" id="PasswordNumbers">
+                      <div><i class="fa-solid fa-check"></i></div>
+                      <div>Numbers</div>
+                    </div>
+                    <div class="text-red-600" id="PasswordUppercase">
+                      <div><i class="fa-solid fa-check"></i></div>
+                        <div>Uppercase Letters</div>
+                    </div>
+                    <div class="text-red-600" id="PasswordSymbols">
+                      <div><i class="fa-solid fa-check"></i></div>
+                        <div>Symbols</div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <!-- Sign Out -->
+            <div class="w-full bg-violet-700 text-white flex justify-center items-center rounded-lg py-3 shadow-violet-500 shadow-md">
+              <button id="login" class="flex items-center gap-2 font-bold capitalize cursor-pointer" type="button" disabled>
+                <div id="log">Create Account</div>
+                <div><i class="fa-solid fa-arrow-right-from-bracket"></i></div>
+              </button>
+            </div>
+          </div>
+        </form>
+        <div>
+          <!-- LogIn -->
+          <div class="w-full p-6 flex items-center justify-center">
+            <div class="w-1/4 h-0.5 bg-gray-300"></div>
+            <div class="px-3 capitalize text-gray-400 text-sm">or continue with</div>
+            <div class="w-1/4 h-0.5 bg-gray-300"></div>
+          </div>
+          <!-- Google and Github -->
+          <div class="px-8 flex justify-evenly gap-4 *:capitalize items-center *:border *:border-gray-300 *:py-3 *:px-5 *:md:px-10 *:rounded-lg *:flex *:gap-2 *:items-center *:justify-center">
+            <div>
+              <div><i class="fa-brands fa-google"></i></div>
+              <a href="https://google.com" target="_blank">google</a>
+            </div>
+            <div>
+              <div><i class="fa-brands fa-github"></i></div>
+              <a href="https://github.com" target="_blank">github</a>
+            </div>
+          </div>
+        </div>
+        <!-- Footer -->
+        <!-- <div class="fixed bottom-0 py-3  flex justify-center items-center w-screen border-t-gray-300 border-t">
+          <div class="text-gray-500">Other Projects At github LogWithJo</div>
+        </div> -->
+      </div>
+      
+      <div class="w-1/2 hidden md:flex CreateAccountImage" id="CreateAccountImage"><img src="/images/wavy-black-white-background.png" class="w-full h-full" alt=""></div>
+    </div>
+    <div id="LoginBtn" class="fixed bottom-10 cursor-pointer right-10 py-2 px-4 text-white bg-violet-600 rounded-full capitalize LoginBtn invisible md:visible">login</div>
+    <div id="CreateAccountBtn" class="fixed bottom-10 cursor-pointer left-10 py-2 px-4 text-white bg-violet-600 rounded-full capitalize hidden CreateAccountBtn">Create Accout</div>
+    <div><img src="/images/cursor.png" id="Cursor" class="w-10 h-10 fixed z-100 invisible lg:visible" alt=""></div>
+    <!-- Text Menu -->
+    <div id="TextMenu" class="fixed bg-white flex flex-col gap-2 rounded-lg *:flex *:items-center *:justify-between *:gap-2 *:**:first:text-violet-600 *:px-4 *:py-2 shadow-lg TextMenu capitalize *:not-first:border-t *:not-first:border-t-gray-400 hidden">
+        <div id="Copy">
+          <div><i class="fa-solid fa-copy"></i></div>
+          <div>copy</div>
+        </div>
+        <div id="Paste">
+          <div><i class="fa-solid fa-paste"></i></div>
+          <div>paste</div>
+        </div>
+        <div>
+          <div id="Cut"><i class="fa-solid fa-cut"></i></div>
+          <div>cut</div>
+        </div>
+    </div>
+    <script src="/script.js"></script>
+  </body>
+</html>
