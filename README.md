@@ -79,4 +79,4 @@ LoginPage/
 * Learning the fundamentals of authentication concepts
 * Patience during development
 
-> Tomorrow will be better.
+> Getting 1 percent better every day counts for a lot in the long run.
