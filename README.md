@@ -11,29 +11,15 @@ A simple browser-based log in page built with vanilla JavaScript
 
 ## About
 
-This was my first complete project in my TypeScript learning roadmap.
-
-The main goal was to understand how TypeScript integrates with JavaScript and how type safety improves development.
-
-Looking back, I noticed some weaknesses in the project architecture, particularly duplicated logic and code organization issues. This happened because I initially started with simple features and gradually kept expanding the project without refactoring earlier code.
-
-I considered rebuilding the project from scratch, but I felt that would not be the best use of time. Instead, I decided to focus on learning better architectural patterns in React and applying those lessons to future projects.
+This was my mini project in my Javascript learning roadmap.
+The main goal was to understand how regex works in JavaScript with a soft UI animations
 
 ---
 
 ## Features
 
-* Add tasks with due dates
-* Search tasks
-* Mark tasks as completed or uncompleted
-* Delete tasks with undo support
-* Restore deleted tasks from a deleted-tasks popup
-* Drag-and-drop task ordering
-* View task statistics:
-
-  * Finished tasks
-  * Pending tasks
-  * Deleted tasks
+* Aregex for the email validation
+* Aregex for the password validation
 * Responsive design
 
 ---
@@ -43,7 +29,7 @@ I considered rebuilding the project from scratch, but I felt that would not be t
 * **HTML5** — page structure
 * **CSS3** — styling
 * **TailwindCSS** — UI design
-* **TypeScript** — type safety and application logic
+* **JavaScript** — type safety and application logic
 
 ---
 
@@ -51,7 +37,7 @@ I considered rebuilding the project from scratch, but I felt that would not be t
 
 Just open the live version:
 
-[Launch App →](https://logwithjo.github.io/Todo)
+[Launch App →](https://logwithjo.github.io/LoginPage)
 
 ---
 
@@ -96,12 +82,10 @@ To-do/
 
 ## What I Learned
 
-* Better project organization and architecture fundamentals
-* The importance of avoiding duplicated logic
-* Writing cleaner code for easier maintenance and future upgrades
-* Understanding how TypeScript works alongside JavaScript
+* Understanding how Regex works
 * Patience during development
 
-One of the biggest lessons I learned was not rushing to finish a project just to see the final result. In previous projects, rushing usually left me feeling unsatisfied. For the first time, I took more time with the process, and I’m genuinely happy with the result so far ✨
+It is a very small and has a lot of bugs but i love this project unless all my projects because it's the first project I started learning some basics in figma and learned how to plan for the project before coding even it's very small and doesn't has any complicated functions
+also this project helped me to know the basics about authrisication and github and google connected account ( even i didn't put this in my project but i understand it for future )
 
 > Tomorrow will be better.
