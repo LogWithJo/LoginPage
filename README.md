@@ -1,58 +1,108 @@
-<<<<<<< HEAD
-# Book Store / Library Manager
+# To-do App
 
-A responsive frontend  book store/library manager login and account UI built with HTML, Tailwind CSS utility classes, Font Awesome icons, and vanilla JavaScript.
+A simple browser-based log in page built with vanilla JavaScript
 
-## 🚀 Project Overview
+[Live Demo →](https://logwithjo.github.io/LoginPage)
 
-This project demonstrates a modern auth UI with:
-- **Create Account** and **Login** views with smooth transitions
-- **Email validation** for @gmail.com
-- **Password strength feedback** (numbers, uppercase, symbols)
-- **Show/hide password** and custom masked input behavior
-- **Responsive mobile behavior** and toggle buttons
-- **Animated custom cursor**
+![App screenshot](./preview.png)
 
-## 📁 Files
+![HTML](https://img.shields.io/badge/HTML-5-orange)
+![Tailwind](https://img.shields.io/badge/TailwindCSS-4-blue)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)
 
-- index.html — Main UI markup
-- css/style.css — Custom styles and responsive layout
-- css/all.min.css — Font Awesome icons
-- script.js — UI interactions, form validation, and transition logic
-- images/ — UI/illustration assets
+## About
 
-## 🎯 Features
+This was my first complete project in my TypeScript learning roadmap.
 
-1. **Create Account / Login switching**
-   - Desktop: sliding panel transitions
-   - Mobile: header button toggles
+The main goal was to understand how TypeScript integrates with JavaScript and how type safety improves development.
 
-2. **Form validation**
-   - Email must end with @gmail.com
-   - Password checks for number, uppercase, and symbol
-   - Submit button remains disabled until valid
+Looking back, I noticed some weaknesses in the project architecture, particularly duplicated logic and code organization issues. This happened because I initially started with simple features and gradually kept expanding the project without refactoring earlier code.
 
-3. **Password UX**
-   - Live strength indicator list
-   - Eye hover reveals typed password, else masked with ~
+I considered rebuilding the project from scratch, but I felt that would not be the best use of time. Instead, I decided to focus on learning better architectural patterns in React and applying those lessons to future projects.
 
-4. **Interactive UI**
-   - Custom floating cursor following pointer
-   - Quick forgot password feedback message
+---
 
-## ▶️ Run
+## Features
 
-Open index.html in your browser or use Live Server in VS Code.
+* Add tasks with due dates
+* Search tasks
+* Mark tasks as completed or uncompleted
+* Delete tasks with undo support
+* Restore deleted tasks from a deleted-tasks popup
+* Drag-and-drop task ordering
+* View task statistics:
 
-## ✨ Customize
+  * Finished tasks
+  * Pending tasks
+  * Deleted tasks
+* Responsive design
 
-- Change heading/title in index.html
-- Update styles in css/style.css
-- Add new validation rules in script.js
+---
 
-## 📌 Note
+## Built With
 
-Currently this is a frontend-only UI demo. The login button redirects to Google as a placeholder.
-=======
-# LoginPage
->>>>>>> 9253579f956f9910e6422c8fa8842f606a0b376c
+* **HTML5** — page structure
+* **CSS3** — styling
+* **TailwindCSS** — UI design
+* **TypeScript** — type safety and application logic
+
+---
+
+## Getting Started
+
+Just open the live version:
+
+[Launch App →](https://logwithjo.github.io/Todo)
+
+---
+
+## Project Structure
+
+```text
+To-do/
+├── .gitignore
+├── README.md
+├── index.html
+├── package.json
+├── package-lock.json
+├── server.js
+├── tasks.json
+├── tsconfig.json
+├── preview.png
+├── css/
+│   ├── all.min.css
+│   ├── style.css
+│   ├── task-completed.png
+│   └── john-towner-JgOeRuGD_Y4-unsplash.jpg
+│
+├── webfonts/
+│   ├── fa-brands-400.woff2
+│   ├── fa-regular-400.woff2
+│   ├── fa-solid-900.woff2
+│   └── fa-v4compatibility.woff2
+│
+└── src/
+    ├── api.ts
+    ├── data.ts
+    ├── deletedPageData.ts
+    ├── deletedPageDom.ts
+    ├── deletedPageUi.ts
+    ├── dom.ts
+    ├── main.ts
+    ├── types.ts
+    └── ui.ts
+```
+
+---
+
+## What I Learned
+
+* Better project organization and architecture fundamentals
+* The importance of avoiding duplicated logic
+* Writing cleaner code for easier maintenance and future upgrades
+* Understanding how TypeScript works alongside JavaScript
+* Patience during development
+
+One of the biggest lessons I learned was not rushing to finish a project just to see the final result. In previous projects, rushing usually left me feeling unsatisfied. For the first time, I took more time with the process, and I’m genuinely happy with the result so far ✨
+
+> Tomorrow will be better.
