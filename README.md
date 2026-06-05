@@ -14,6 +14,10 @@ A simple browser-based log in page built with vanilla JavaScript
 * This was my mini project in my Javascript learning roadmap.
 * The main goal was to understand how regex works in JavaScript with a soft UI animations
 
+It is a very small project and has a lot of bugs but i love this project unless all my projects because it's the first project I started learning some basics in figma and learned how to plan for the project before coding even it's very small and doesn't has any complicated functions
+also this project helped me to know the basics about authrisication and github and google connected account ( even i didn't put this in my project but i understand it for future )
+
+
 ---
 
 ## Features
@@ -84,8 +88,5 @@ To-do/
 
 * Understanding how Regex works
 * Patience during development
-
-It is a very small and has a lot of bugs but i love this project unless all my projects because it's the first project I started learning some basics in figma and learned how to plan for the project before coding even it's very small and doesn't has any complicated functions
-also this project helped me to know the basics about authrisication and github and google connected account ( even i didn't put this in my project but i understand it for future )
 
 > Tomorrow will be better.
