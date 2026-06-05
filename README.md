@@ -2,13 +2,12 @@
 
 A simple browser-based log in page built with vanilla JavaScript
 
-[Live Demo →](https://logwithjo.github.io/LoginPage)
-
 ![App screenshot](./preview.png)
 
 ![HTML](https://img.shields.io/badge/HTML-5-orange)
+![CSS](https://img.shields.io/badge/CSS-3-blue)
 ![Tailwind](https://img.shields.io/badge/TailwindCSS-4-blue)
-![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)
+![JavaScript](https://img.shields.io/badge/Javascript--yellow)
 
 ## About
 
