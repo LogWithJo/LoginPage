@@ -48,38 +48,24 @@ Just open the live version:
 ## Project Structure
 
 ```text
-To-do/
-├── .gitignore
-├── README.md
+LoginPage/
 ├── index.html
-├── package.json
-├── package-lock.json
-├── server.js
-├── tasks.json
-├── tsconfig.json
+├── script.js
+├── README.md
 ├── preview.png
 ├── css/
 │   ├── all.min.css
-│   ├── style.css
-│   ├── task-completed.png
-│   └── john-towner-JgOeRuGD_Y4-unsplash.jpg
-│
-├── webfonts/
-│   ├── fa-brands-400.woff2
-│   ├── fa-regular-400.woff2
-│   ├── fa-solid-900.woff2
-│   └── fa-v4compatibility.woff2
-│
-└── src/
-    ├── api.ts
-    ├── data.ts
-    ├── deletedPageData.ts
-    ├── deletedPageDom.ts
-    ├── deletedPageUi.ts
-    ├── dom.ts
-    ├── main.ts
-    ├── types.ts
-    └── ui.ts
+│   └── style.css
+├── images/
+│   ├── cursor (1).png
+│   ├── cursor.png
+│   └── wavy-black-white-background.png
+└── webfonts/
+    ├── fa-brands-400.woff2
+    ├── fa-regular-400.woff2
+    ├── fa-solid-900.woff2
+    └── fa-v4compatibility.woff2
+
 ```
 
 ---
