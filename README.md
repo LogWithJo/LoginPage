@@ -1,30 +1,32 @@
-# To-do App
+# Login Page
 
-A simple browser-based log in page built with vanilla JavaScript
+A simple browser-based login page built with vanilla JavaScript.
 
 ![App screenshot](./preview.png)
 
 ![HTML](https://img.shields.io/badge/HTML-5-orange)
 ![CSS](https://img.shields.io/badge/CSS-3-blue)
 ![Tailwind](https://img.shields.io/badge/TailwindCSS-4-blue)
-![JavaScript](https://img.shields.io/badge/Javascript--yellow)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
 
 ## About
 
-* This was my mini project in my Javascript learning roadmap.
-* The main goal was to understand how regex works in JavaScript with a soft UI animations
+This was one of my mini projects in my JavaScript learning roadmap.
 
-It is a very small project and has a lot of bugs but i love this project unless all my projects because it's the first project I started learning some basics in figma and learned how to plan for the project before coding even it's very small and doesn't has any complicated functions
-also this project helped me to know the basics about authrisication and github and google connected account ( even i didn't put this in my project but i understand it for future )
+The main goal of this project was to understand how regular expressions (Regex) work in JavaScript while also experimenting with soft UI animations and improving my front-end design skills.
 
+Although this is a very small project and still contains several bugs, it remains one of my favorite projects. It was the first project where I started learning some basics of Figma and practiced planning a project before writing code, even if the project itself was simple and didn't include complex functionality.
+
+This project also introduced me to authentication concepts and helped me understand how systems like Google sign-in and GitHub account integration work. While these features were not implemented in the project, learning about them gave me a stronger foundation for future projects.
 
 ---
 
 ## Features
 
-* Aregex for the email validation
-* Aregex for the password validation
+* Email validation using Regex
+* Password validation using Regex
 * Responsive design
+* Simple UI animations
 
 ---
 
@@ -32,14 +34,14 @@ also this project helped me to know the basics about authrisication and github a
 
 * **HTML5** — page structure
 * **CSS3** — styling
-* **TailwindCSS** — UI design
-* **JavaScript** — type safety and application logic
+* **TailwindCSS** — UI design and utility classes
+* **JavaScript** — application logic and interactions
 
 ---
 
 ## Getting Started
 
-Just open the live version:
+Open the live version here:
 
 [Launch App →](https://logwithjo.github.io/LoginPage)
 
@@ -65,14 +67,16 @@ LoginPage/
     ├── fa-regular-400.woff2
     ├── fa-solid-900.woff2
     └── fa-v4compatibility.woff2
-
 ```
 
 ---
 
 ## What I Learned
 
-* Understanding how Regex works
+* Understanding how Regex works in JavaScript
+* Basic project planning before coding
+* Introductory Figma skills
+* Learning the fundamentals of authentication concepts
 * Patience during development
 
 > Tomorrow will be better.
