@@ -11,8 +11,8 @@ A simple browser-based log in page built with vanilla JavaScript
 
 ## About
 
-This was my mini project in my Javascript learning roadmap.
-The main goal was to understand how regex works in JavaScript with a soft UI animations
+* This was my mini project in my Javascript learning roadmap.
+* The main goal was to understand how regex works in JavaScript with a soft UI animations
 
 ---
 
